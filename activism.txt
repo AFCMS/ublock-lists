@@ -1,0 +1,12 @@
+! Title: AFCMS filters - Activism
+! Last modified: %timestamp%
+! Expires: 7 days
+! Description: Political activism in software
+! License: https://github.com/AFCMS/ublock-lists/blob/master/LICENSE
+! Homepage: https://github.com/AFCMS/ublock-lists
+! Forums: https://github.com/AFCMS/ublock-lists/issues
+
+##a[href*="leafletjs.com"] > svg.leaflet-attribution-flag
+
+npmx.dev##body:has([id^="intro-header-noodle-pride-"]) #intro-header-noodle-default:style(display:block!important;)
+npmx.dev##body:has([id^="intro-header-noodle-pride-"]) [id^="intro-header-noodle-pride-"]:style(display:none!important;)
