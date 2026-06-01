@@ -1,5 +1,11 @@
 # AFCMS uBlock lists
 
+Tested with:
+
+- Chrome (uBlock Origin Lite)
+- Firefox (uBlock Origin)
+- Brave (native adblock)
+
 ## Activism
 
 Filters offtopic political activism in end user focused online software and documentation.
