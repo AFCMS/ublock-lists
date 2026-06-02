@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Install aglint
-        run: npm install -g aglint
+        run: npm install -g @adguard/aglint
       
       - name: Run aglint
         run: aglint
