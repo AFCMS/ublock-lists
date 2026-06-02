@@ -1,0 +1,22 @@
+---
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+   
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install aglint
+        run: npm install -g aglint
+      
+      - name: Run aglint
+        run: aglint
