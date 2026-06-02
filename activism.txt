@@ -1,12 +1,21 @@
 ! Title: AFCMS filters - Activism
 ! Last modified: %timestamp%
 ! Expires: 7 days
-! Description: Political activism in software
+! Description: Forced political activism in end-user focused software
 ! License: https://github.com/AFCMS/ublock-lists/blob/master/LICENSE
 ! Homepage: https://github.com/AFCMS/ublock-lists
 ! Forums: https://github.com/AFCMS/ublock-lists/issues
 
+! Leaflet
 ##a[href*="leafletjs.com"] > svg.leaflet-attribution-flag
 
+! npmx.dev
 npmx.dev##body:has([id^="intro-header-noodle-pride-"]) #intro-header-noodle-default:style(display:block!important;)
 npmx.dev##body:has([id^="intro-header-noodle-pride-"]) [id^="intro-header-noodle-pride-"]:style(display:none!important;)
+
+! Vikunja
+!
+! TODO: find a way to match any self-hosted instances
+!
+! For now copy the rule and replace "vikunja.cloud" with your instance domain if you can't configure the builtin settings to disable the pride logo
+vikunja.cloud##svg.logo[alt="Vikunja"] path[style*="fill-rule:evenodd"]:style(fill:#196aff !important; fill-opacity:1 !important;)
