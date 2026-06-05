@@ -18,10 +18,10 @@ Currently filtered:
 - [npmx.dev's pride noodles](https://github.com/npmx-dev/npmx.dev/pull/2826) ([npmx.dev](https://npmx.dev))
   - May allow to [change the noodle](https://github.com/npmx-dev/npmx.dev/issues/2780) in settings in the future
 - [Vikunja's pride logo](https://github.com/Vikunja/Vikunja/pull/2826) (any [vikunja.cloud](https://vikunja.io) instance, need to copy the rule for self-hosted instances)
-  - Quite a lot of people complaining about it being not configurable + by default even for self-hosted instances [in the forum](https://community.vikunja.io/search?q=pride)
-  - Theorically [configurable](https://vikunja.io/docs/config-options/#1-service-allowiconchanges), but bugs have been reported (intentional or intentionally untested?) preventing it from working.
-  - https://github.com/go-vikunja/vikunja/issues/2821
-  - https://github.com/go-vikunja/vikunja/blob/main/frontend/src/components/home/Logo.vue
+  - Quite a lot of people complaining about it [in the forum](https://community.vikunja.io/search?q=pride)
+  - Configurable per-user
+  - [Configurable](https://vikunja.io/docs/config-options/#1-service-allowiconchanges) at the server level, but a [bug](https://github.com/go-vikunja/vikunja/issues/2821) have been reported preventing it from working.
+- [Luanti's ContentDB "bigot troll"](https://github.com/luanti-org/contentdb/commit/d1372b0ab932435e7a1765378ea4370e7765cb9f)
 
 > [!IMPORTANT]
 >

@@ -19,3 +19,8 @@ npmx.dev##body:has([id^="intro-header-noodle-pride-"]) [id^="intro-header-noodle
 !
 ! For now copy the rule and replace "vikunja.cloud" with your instance domain if you can't configure the builtin settings to disable the pride logo
 vikunja.cloud##svg.logo[alt="Vikunja"] path[style*="fill-rule:evenodd"]:style(fill:#196aff !important; fill-opacity:1 !important;)
+
+! ContentDB
+content.luanti.org##.navbar.bg-primary:style(background: var(--bs-primary) !important;)
+content.luanti.org##.navbar.bg-primary .nav-item:style(background: transparent !important;)
+content.luanti.org##.navbar.bg-primary .navbar-brand:style(background: transparent !important;)
