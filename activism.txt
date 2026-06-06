@@ -12,6 +12,8 @@
 ! npmx.dev
 npmx.dev##body:has([id^="intro-header-noodle-pride-"]) #intro-header-noodle-default:style(display:block!important;)
 npmx.dev##body:has([id^="intro-header-noodle-pride-"]) [id^="intro-header-noodle-pride-"]:style(display:none!important;)
+npmx.dev##body:has([id="intro-header-noodle-tetris"]) #intro-header-noodle-default:style(display:block!important;)
+npmx.dev##body:has([id="intro-header-noodle-tetris"]) [id="intro-header-noodle-tetris"]:style(display:none!important;)
 
 ! Vikunja
 !
