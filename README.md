@@ -8,7 +8,7 @@ Tested with:
 
 ## Activism
 
-Filters offtopic political activism in end user focused online software and documentation.
+Filters offtopic political activism in end user focused online platforms, software and documentation.
 
 Doesn't aim to cover personal user profiles, forums or social networks. 
 
@@ -22,6 +22,7 @@ Currently filtered:
   - Configurable per-user
   - [Configurable](https://vikunja.io/docs/config-options/#1-service-allowiconchanges) at the server level, but a [bug](https://github.com/go-vikunja/vikunja/issues/2821) have been reported preventing it from working.
 - [Luanti's ContentDB "bigot troll"](https://github.com/luanti-org/contentdb/commit/d1372b0ab932435e7a1765378ea4370e7765cb9f)
+- [Leboncoin's pride logo](https://www.leboncoin.fr)
 
 > [!IMPORTANT]
 >

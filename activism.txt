@@ -28,3 +28,7 @@ vikunja.cloud##svg.logo[alt="Vikunja"] path[style*="fill-rule:evenodd"]:style(fi
 content.luanti.org##.navbar.bg-primary:style(background: var(--bs-primary) !important;)
 content.luanti.org##.navbar.bg-primary .nav-item:style(background: transparent !important;)
 content.luanti.org##.navbar.bg-primary .navbar-brand:style(background: transparent !important;)
+
+! Leboncoin
+! aglint-disable-next-line no-invalid-css-declaration
+leboncoin.fr##div:has([class*="logoContainer"]) svg stop:style(stop-color: #F56B2A !important; stop-opacity: 1 !important;)
