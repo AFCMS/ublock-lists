@@ -32,3 +32,6 @@ content.luanti.org##.navbar.bg-primary .navbar-brand:style(background: transpare
 ! Leboncoin
 ! aglint-disable-next-line no-invalid-css-declaration
 leboncoin.fr##div:has([class*="logoContainer"]) svg stop:style(stop-color: #F56B2A !important; stop-opacity: 1 !important;)
+
+! Wikipedia
+wikipedia.org##div.cnotice[id^="WLPride"][id$="_banner"]
