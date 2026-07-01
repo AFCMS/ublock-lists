@@ -24,6 +24,7 @@ Currently filtered:
 - [Luanti's ContentDB "bigot troll"](https://github.com/luanti-org/contentdb/commit/d1372b0ab932435e7a1765378ea4370e7765cb9f)
 - [Leboncoin's pride logo](https://www.leboncoin.fr)
 - [Wikipedia's "Wiki Loves Pride" banner](https://www.wikipedia.org)
+- [Preact's Ukraine banner](https://preactjs.com)
 
 > [!IMPORTANT]
 >

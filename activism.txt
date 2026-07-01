@@ -35,3 +35,7 @@ leboncoin.fr##div:has([class*="logoContainer"]) svg stop:style(stop-color: #F56B
 
 ! Wikipedia
 wikipedia.org##div.cnotice[id^="WLPride"][id$="_banner"]
+
+! Preact
+preactjs.com##div[class^="_banner_"]:has(> a[href="https://www.stopputin.net/"])
+preactjs.com##:root:style(--banner-height: 0px !important;)
