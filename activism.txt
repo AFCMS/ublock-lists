@@ -41,4 +41,7 @@ preactjs.com##div[class^="_banner_"]:has(> a[href="https://www.stopputin.net/"])
 preactjs.com##:root:style(--banner-height: 0px !important;)
 
 ! PlatformIO
-platformio.org##div[class="pio-ad-fixed"]
+platformio.org##div.pio-ad-fixed
+
+! Codeberg
+codeberg.org##div.symbol-of-tolerance

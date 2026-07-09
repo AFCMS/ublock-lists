@@ -26,6 +26,7 @@ Currently filtered:
 - [Wikipedia's "Wiki Loves Pride" banner](https://www.wikipedia.org)
 - [Preact's Ukraine banner](https://preactjs.com)
 - [PlatformIO's Ukraine banner](https://platformio.org)
+- [Codeberg's pride footer bar](https://codeberg.org)
 
 > [!IMPORTANT]
 >
